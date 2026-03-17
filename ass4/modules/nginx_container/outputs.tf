@@ -1,0 +1,3 @@
+output "container_url" {
+  value = "http://localhost:${var.container_port}"
+}
